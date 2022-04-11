@@ -8,7 +8,7 @@ void led_init(void)
 	init.pin = LED1;
 	init.mode = OUTPUT;
 	init.type = PP;
-	init.speed = LOW;
+
 	init.pupd = NOPUPD;
 	hal_gpio_init(LED1_PORT, &init);
 	init.pin = LED2;
